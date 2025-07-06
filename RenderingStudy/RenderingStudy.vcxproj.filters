@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\Debug">
       <UniqueIdentifier>{aee0e29d-b849-42a9-8bc4-ece2b2bd5ed1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\D3D">
+      <UniqueIdentifier>{a96c7629-f778-443c-b0e7-e60b5765eec1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Support\ComPointer.h">
@@ -30,6 +33,9 @@
     <ClInclude Include="Debug\DXDebugLayer.h">
       <Filter>소스 파일\Debug</Filter>
     </ClInclude>
+    <ClInclude Include="D3D\DXContext.h">
+      <Filter>소스 파일\D3D</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Debug\DXDebugLayer.cpp">
@@ -37,6 +43,9 @@
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D\DXContext.cpp">
+      <Filter>소스 파일\D3D</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
