@@ -13,8 +13,14 @@ int main()
 
 	if (DXContext::Get().Init())
 	{
+		while (true)
+		{
+			auto* cmdList = DXContext::Get().InitCommandList();
+
+			DXContext::Get().ExecuteCommandList();
+		}
 		DXContext::Get().Shutdown();
 	}
 	DXDebugLayer::Get().Shutdown();
-	
+
 }
